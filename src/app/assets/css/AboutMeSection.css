@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+:root {
+    --primary-color: #800080;
+    --accent-color: #6c016c;
+    --white-color: #FFFFFF;
+    --black-color: #000;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.greeting {
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 54px;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-weight: normal;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.secondaryTitle {
+    color: var(--primary-color);
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.profileImage {
+    margin-left: 500px;
+    margin-top: 45px;
+}
+
+.githubIcon {
+    margin-left: 15px;
+}
+
+.githubIcon, .instagramIcon {
+    height: 50px;
+    color: #000;
+}
+
+.instagramIcon:hover,
+.githubIcon:hover {
+    color: var(--accent-color)
+}

@@ -1,0 +1,35 @@
+:root {
+    --primary-color: #6c026c;
+    --accent-color: #830183;
+    --white-color: #FFFFFF;
+    --black-color: #000;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--primary-color);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    color: var(--white-color);
+    text-align: center;
+    padding: 14px 16px;
+}
+
+li a:hover {
+    background-color: var(--accent-color);
+}
